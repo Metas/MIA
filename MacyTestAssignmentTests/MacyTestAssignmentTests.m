@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "MAAppDelegate.h"
 
 @interface MacyTestAssignmentTests : XCTestCase
 
@@ -18,6 +19,7 @@
 {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
+    
 }
 
 - (void)tearDown
@@ -26,9 +28,19 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testNoOfTapsISNumberExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    //XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    MAAppDelegate *appDelegate =(MAAppDelegate *)[[UIApplication sharedApplication] delegate];
+    isnumber([appDelegate NoOfTaps]);
 }
+
+-(void)testNoOfTapsIncrementedByOne
+{
+    MAAppDelegate *appDelegate =(MAAppDelegate *)[[UIApplication sharedApplication] delegate];
+    [appDelegate setNoOfTaps:0];
+    XCTAssertTrue([appDelegate NoOfTaps]==1, @"Initialized to Zero");
+}
+
 
 @end

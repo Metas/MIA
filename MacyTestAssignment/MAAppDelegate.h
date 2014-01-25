@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface MAAppDelegate : UIResponder <UIApplicationDelegate>
+{
+    int NoOfTaps;
+}
+@property(nonatomic,readwrite) int NoOfTaps;
 
 @property (strong, nonatomic) UIWindow *window;
 
