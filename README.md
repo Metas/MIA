@@ -25,8 +25,8 @@ Strategies That Can be used:
 				3. have different story boards based on version. Seperate out the cells as individual nibs.
 				
 
-I have assumed IOS6 compatible, using the UIViewController with UICollectionView and UICollectionViewCells. 
-Due to time brevity I have not created individual cell nib files but created the UICollectionViewCells in the storyboard.
+I have assumed IOS6 compatible, using the UIViewController with UICollectionView and UICollectionViewCells as nib files. 
+
  
 				
 				
