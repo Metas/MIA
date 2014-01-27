@@ -13,6 +13,7 @@
 @property (nonatomic, strong) IBOutlet UIButton *ButtonShopNow;
 
 @property (nonatomic, strong) IBOutlet UIImageView *promotionalImage;
+- (IBAction)ButtonShopNow:(id)sender;
 
 @end
 

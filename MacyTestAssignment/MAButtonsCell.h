@@ -23,6 +23,12 @@
 @property (weak, nonatomic) IBOutlet UIButton *ButtonAccount;
 
 
+- (IBAction)ButtonShop:(id)sender;
 
+- (IBAction)ButtonRegistry:(id)sender;
+- (IBAction)ButtonStores:(id)sender;
+- (IBAction)ButtonBag:(id)sender;
+- (IBAction)ButtonOffers:(id)sender;
+- (IBAction)ButtonAccount:(id)sender;
 
 @end

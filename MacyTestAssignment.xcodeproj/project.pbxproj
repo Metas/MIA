@@ -41,6 +41,11 @@
 		9D75DE4F18938B75005D4984 /* MAButtonsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D75DE4E18938B75005D4984 /* MAButtonsCell.m */; };
 		9D75DE5218938E9C005D4984 /* MAAdvertisementMiddleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D75DE5118938E9C005D4984 /* MAAdvertisementMiddleCell.m */; };
 		9D75DE5518939027005D4984 /* MAAdvertisementBottomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D75DE5418939027005D4984 /* MAAdvertisementBottomCell.m */; };
+		9DE4FC661896DF7200879642 /* MASearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DE4FC651896DF7200879642 /* MASearchCell.xib */; };
+		9DE4FC681896E4B600879642 /* MAPromotionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DE4FC671896E4B600879642 /* MAPromotionCell.xib */; };
+		9DE4FC6A1896E55100879642 /* MAButtonsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DE4FC691896E55100879642 /* MAButtonsCell.xib */; };
+		9DE4FC6C1896E5B600879642 /* MAAdvertisementMiddleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DE4FC6B1896E5B600879642 /* MAAdvertisementMiddleCell.xib */; };
+		9DE4FC6E1896E65200879642 /* MAAdvertisementBottomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DE4FC6D1896E65200879642 /* MAAdvertisementBottomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +104,11 @@
 		9D75DE5118938E9C005D4984 /* MAAdvertisementMiddleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAdvertisementMiddleCell.m; sourceTree = "<group>"; };
 		9D75DE5318939027005D4984 /* MAAdvertisementBottomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAdvertisementBottomCell.h; sourceTree = "<group>"; };
 		9D75DE5418939027005D4984 /* MAAdvertisementBottomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAdvertisementBottomCell.m; sourceTree = "<group>"; };
+		9DE4FC651896DF7200879642 /* MASearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MASearchCell.xib; sourceTree = "<group>"; };
+		9DE4FC671896E4B600879642 /* MAPromotionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAPromotionCell.xib; sourceTree = "<group>"; };
+		9DE4FC691896E55100879642 /* MAButtonsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAButtonsCell.xib; sourceTree = "<group>"; };
+		9DE4FC6B1896E5B600879642 /* MAAdvertisementMiddleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAAdvertisementMiddleCell.xib; sourceTree = "<group>"; };
+		9DE4FC6D1896E65200879642 /* MAAdvertisementBottomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAAdvertisementBottomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,14 +176,19 @@
 				9D75DE0818936F3F005D4984 /* MAViewController.m */,
 				9D75DE5318939027005D4984 /* MAAdvertisementBottomCell.h */,
 				9D75DE5418939027005D4984 /* MAAdvertisementBottomCell.m */,
+				9DE4FC6D1896E65200879642 /* MAAdvertisementBottomCell.xib */,
 				9D75DE5018938E9C005D4984 /* MAAdvertisementMiddleCell.h */,
 				9D75DE5118938E9C005D4984 /* MAAdvertisementMiddleCell.m */,
+				9DE4FC6B1896E5B600879642 /* MAAdvertisementMiddleCell.xib */,
 				9D75DE4D18938B75005D4984 /* MAButtonsCell.h */,
 				9D75DE4E18938B75005D4984 /* MAButtonsCell.m */,
+				9DE4FC691896E55100879642 /* MAButtonsCell.xib */,
 				9D75DE4A1893845C005D4984 /* MAPromotionCell.h */,
 				9D75DE4B1893845C005D4984 /* MAPromotionCell.m */,
+				9DE4FC671896E4B600879642 /* MAPromotionCell.xib */,
 				9D75DE4718937AC8005D4984 /* MASearchCell.h */,
 				9D75DE4818937AC8005D4984 /* MASearchCell.m */,
+				9DE4FC651896DF7200879642 /* MASearchCell.xib */,
 				9D75DE27189375A7005D4984 /* MATapsViewController.h */,
 				9D75DE28189375A7005D4984 /* MATapsViewController.m */,
 				9D75DE29189375A7005D4984 /* MATapsViewController.xib */,
@@ -310,7 +325,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D75DE3F1893779E005D4984 /* ButtonBag.png in Resources */,
+				9DE4FC661896DF7200879642 /* MASearchCell.xib in Resources */,
 				9D75DE3B1893779E005D4984 /* advertisementMiddle.png in Resources */,
+				9DE4FC6A1896E55100879642 /* MAButtonsCell.xib in Resources */,
+				9DE4FC6E1896E65200879642 /* MAAdvertisementBottomCell.xib in Resources */,
 				9D75DE431893779E005D4984 /* ButtonShopNow.png in Resources */,
 				9D75DE401893779E005D4984 /* ButtonOffers.png in Resources */,
 				9D75DE0B18936F3F005D4984 /* Images.xcassets in Resources */,
@@ -325,7 +343,9 @@
 				9D75DE411893779E005D4984 /* ButtonRegistry.png in Resources */,
 				9D75DE3E1893779E005D4984 /* ButtonAccount.png in Resources */,
 				9D75DE441893779E005D4984 /* ButtonStores.png in Resources */,
+				9DE4FC681896E4B600879642 /* MAPromotionCell.xib in Resources */,
 				9D75DE461893779E005D4984 /* PromoSales.png in Resources */,
+				9DE4FC6C1896E5B600879642 /* MAAdvertisementMiddleCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

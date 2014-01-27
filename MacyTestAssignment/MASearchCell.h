@@ -11,10 +11,12 @@
 
 @interface MASearchCell : UICollectionViewCell
 
+
 @property (nonatomic, strong) IBOutlet UIButton *ButtonbarCodeView;
 
 @property (nonatomic, strong) IBOutlet UISearchBar *searchBar;
 
+- (IBAction)ButtonBarCode:(id)sender;
 @end
 
 

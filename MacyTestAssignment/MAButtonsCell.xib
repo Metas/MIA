@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ButtonsCell" id="m6F-DQ-cJp" customClass="MAButtonsCell">
+            <rect key="frame" x="0.0" y="0.0" width="319" height="174"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="319" height="174"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQG-ue-yjG" userLabel="ButtonShop">
+                        <rect key="frame" x="1" y="0.0" width="100" height="85"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" image="ButtonShop.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="ButtonShop:" destination="m6F-DQ-cJp" eventType="touchUpInside" id="4jv-JX-8MO"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Am-si-qD2" userLabel="ButtonRegistry">
+                        <rect key="frame" x="110" y="0.0" width="100" height="85"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" image="ButtonRegistry.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="ButtonRegistry:" destination="m6F-DQ-cJp" eventType="touchUpInside" id="1NG-6c-eGl"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4Y-yT-3Ge" userLabel="ButtonStores">
+                        <rect key="frame" x="217" y="0.0" width="100" height="85"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" image="ButtonStores.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="ButtonStores:" destination="m6F-DQ-cJp" eventType="touchUpInside" id="G3j-Io-O2B"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtn-Ku-uyg" userLabel="ButtonBag">
+                        <rect key="frame" x="1" y="89" width="100" height="85"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" image="ButtonBag.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="ButtonBag:" destination="m6F-DQ-cJp" eventType="touchUpInside" id="WZz-HD-llZ"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdu-Eo-6cH" userLabel="ButtonOffers">
+                        <rect key="frame" x="110" y="89" width="100" height="85"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" image="ButtonOffers.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="ButtonOffers:" destination="m6F-DQ-cJp" eventType="touchUpInside" id="Iw6-SY-P4U"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUg-Hp-zZC" userLabel="ButtonAccount">
+                        <rect key="frame" x="217" y="89" width="100" height="85"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" image="ButtonAccount.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="ButtonAccount:" destination="m6F-DQ-cJp" eventType="touchUpInside" id="Bok-bT-azh"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <size key="customSize" width="319" height="174"/>
+            <connections>
+                <outlet property="ButtonAccount" destination="PUg-Hp-zZC" id="wFJ-ri-eLB"/>
+                <outlet property="ButtonBag" destination="wtn-Ku-uyg" id="8Dg-AB-bB1"/>
+                <outlet property="ButtonRegistry" destination="2Am-si-qD2" id="ehr-ww-W4X"/>
+                <outlet property="ButtonShop" destination="zQG-ue-yjG" id="ffU-IU-nDr"/>
+                <outlet property="ButtonStores" destination="d4Y-yT-3Ge" id="Gjd-xA-s1t"/>
+                <outlet property="Buttonoffers" destination="hdu-Eo-6cH" id="Jgr-0v-kzG"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ButtonAccount.png" width="100" height="96"/>
+        <image name="ButtonBag.png" width="100" height="96"/>
+        <image name="ButtonOffers.png" width="100" height="95"/>
+        <image name="ButtonRegistry.png" width="100" height="94"/>
+        <image name="ButtonShop.png" width="100" height="97"/>
+        <image name="ButtonStores.png" width="100" height="95"/>
+    </resources>
+</document>

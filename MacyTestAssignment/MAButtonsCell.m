@@ -8,14 +8,25 @@
 
 #import "MAButtonsCell.h"
 #import "MAAppDelegate.h"
+#import "MATapsViewController.h"
 
 @implementation MAButtonsCell
 
 - (id)initWithFrame:(CGRect)frame{
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code
+    // Initialization code
+    NSArray *arrayOfViews = [[NSBundle mainBundle] loadNibNamed:@"MAButtonsCell" owner:self options:nil];
+    
+    if ([arrayOfViews count] < 1) {
+        return nil;
     }
+    
+    if (![[arrayOfViews objectAtIndex:0] isKindOfClass:[UICollectionViewCell class]]) {
+        return nil;
+    }
+    
+    self = [arrayOfViews objectAtIndex:0];
+    
+    
     return self;
 }
 
@@ -27,4 +38,39 @@
     // Drawing code
 }
 */
+#pragma IBAction
+- (IBAction)ButtonShop:(id)sender {
+    [self handleNavigation];
+}
+
+- (IBAction)ButtonRegistry:(id)sender {
+    [self handleNavigation];
+}
+
+- (IBAction)ButtonStores:(id)sender {
+    [self handleNavigation];
+}
+
+- (IBAction)ButtonBag:(id)sender {
+    [self handleNavigation];
+}
+
+- (IBAction)ButtonOffers:(id)sender {
+    [self handleNavigation];
+}
+
+- (IBAction)ButtonAccount:(id)sender {
+    [self handleNavigation];
+}
+
+#pragma custom method
+-(void)handleNavigation{
+    MAAppDelegate *appDelegate =(MAAppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+    [appDelegate setNoOfTaps:1];
+    
+    MATapsViewController *controller =[[MATapsViewController alloc]init];
+    UINavigationController *navi = ((UINavigationController*)self.window.rootViewController);
+    [navi presentViewController:controller animated:NO completion:nil];
+}
 @end

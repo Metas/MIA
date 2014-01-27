@@ -24,11 +24,21 @@
 - (void)viewDidLoad{
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-    self.sectionElements =[@{} mutableCopy];
-    //[self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"SearchCell"];
+    [self setupCollectionView];
+    //[self.collectionView registerNib:[UINib nibWithNibName:@"MASearchCell" bundle:nil] forCellWithReuseIdentifier:@"SearchCell"];
 }
+-(void)viewDidAppear:(BOOL)animated
+{
+    [self setupCollectionView];
+}
+-(void) setupCollectionView{
+    [self.collectionView registerClass:[MASearchCell class] forCellWithReuseIdentifier:@"SearchCell"];
+    [self.collectionView registerClass:[MAPromotionCell class] forCellWithReuseIdentifier:@"PromotionCell"];
+    [self.collectionView registerClass:[MAButtonsCell class] forCellWithReuseIdentifier:@"ButtonsCell"];
+    [self.collectionView registerClass:[MAAdvertisementMiddleCell class] forCellWithReuseIdentifier:@"AdvertisementMiddleCell"];
+    [self.collectionView registerClass:[MAAdvertisementBottomCell class] forCellWithReuseIdentifier:@"AdvertisementBottomCell"];
 
+}
 - (void)didReceiveMemoryWarning{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -110,50 +120,9 @@
     [appDelegate setNoOfTaps:1];
     
     MATapsViewController *controller = [[MATapsViewController alloc] initWithNibName:@"MATapsViewController" bundle:nil];
+    
     [self presentViewController:controller animated:YES completion:nil];
     
 }
 
-#pragma mark-IBAction
-
--(void)handleTap{
-    [self handleNavigation];
-}
-
-- (IBAction)ButtonScanBarCode:(id)sender {
-    [self handleNavigation];
-    
-}
-
-- (IBAction)ButtonPromotionalShopNow:(id)sender {
-     [self handleNavigation];
-}
-
-- (IBAction)ButtonShop:(id)sender {
-     [self handleNavigation];
-}
-
-- (IBAction)ButtonRegistry:(id)sender {
-     [self handleNavigation];
-}
-
-- (IBAction)ButtonAdvertisementShopNow:(id)sender {
-    [self handleNavigation];
-}
-
-- (IBAction)ButtonStores:(id)sender {
-     [self handleNavigation];
-}
-
-- (IBAction)ButtonBag:(id)sender {
-     [self handleNavigation];
-}
-
-- (IBAction)ButtonOffers:(id)sender {
-     [self handleNavigation];
-}
-
-- (IBAction)ButtonAccount:(id)sender {
-     [self handleNavigation];
-}
 @end

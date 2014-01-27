@@ -16,22 +16,7 @@
 
 @interface MAViewController : UIViewController <UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
 
-- (IBAction)ButtonScanBarCode:(id)sender;
 
-- (IBAction)ButtonPromotionalShopNow:(id)sender;
-
-- (IBAction)ButtonShop:(id)sender;
-
-- (IBAction)ButtonRegistry:(id)sender;
-- (IBAction)ButtonAdvertisementShopNow:(id)sender;
-
-- (IBAction)ButtonStores:(id)sender;
-
-- (IBAction)ButtonBag:(id)sender;
-
-- (IBAction)ButtonOffers:(id)sender;
-
-- (IBAction)ButtonAccount:(id)sender;
 
 @property(nonatomic,strong)NSMutableDictionary *sectionElements;
 
