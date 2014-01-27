@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>586EC92F-C69B-4C04-AB5E-7BC2EBDBE902</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MacyTestAssignment</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F0A1E9E8-C1F8-4ADA-8D10-49F988EA3148</key>
+		<string>https://github.com/Metas/MIA.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MacyTestAssignment.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F0A1E9E8-C1F8-4ADA-8D10-49F988EA3148</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Metas/MIA.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F0A1E9E8-C1F8-4ADA-8D10-49F988EA3148</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F0A1E9E8-C1F8-4ADA-8D10-49F988EA3148</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MacyTestAssignment</string>
+		</dict>
+	</array>
+</dict>
+</plist>

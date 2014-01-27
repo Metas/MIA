@@ -137,6 +137,10 @@
      [self handleNavigation];
 }
 
+- (IBAction)ButtonAdvertisementShopNow:(id)sender {
+    [self handleNavigation];
+}
+
 - (IBAction)ButtonStores:(id)sender {
      [self handleNavigation];
 }

@@ -23,6 +23,7 @@
 - (IBAction)ButtonShop:(id)sender;
 
 - (IBAction)ButtonRegistry:(id)sender;
+- (IBAction)ButtonAdvertisementShopNow:(id)sender;
 
 - (IBAction)ButtonStores:(id)sender;
 

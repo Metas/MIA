@@ -190,7 +190,7 @@
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <action selector="ButtonShopNow:" destination="c9T-5M-12F" eventType="touchUpInside" id="VAg-5c-JfO"/>
+                                                        <action selector="ButtonAdvertisementShopNow:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1Y4-Hw-DIP"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
